@@ -1,11 +1,17 @@
 <div aling="center">
-    <img src="/img/logo.png">
+  <img src="imagenes/logo.png">
 </div>
 
 # Descripción del Proyecto Trabajo Integrador Final
             Full Stack Python(Backend):
 
 "El Proyecto es desarrollar una aplicación web utilizando Python y Django que implementa operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para gestionar los datos en una base de datos MySQL.Se utilizo MySQL Workbench para diseñar y gestionar la base de datos, asegurando una integración fluida con Django a través del ORM de Django. Esta aplicación permite interactuar con los datos de manera eficiente y ofrece una interfaz intuitiva para realizar todas las operaciones CRUD necesarias."
+
+# Stack Tecnológico :)
+* Python
+* Django
+* MySQL
+* MySQL Workbench
 
 # Requerimientos de versiones:
 asgiref==3.8.1
