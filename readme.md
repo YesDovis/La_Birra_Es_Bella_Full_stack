@@ -25,7 +25,7 @@ pytz==2024.1
 setuptools==70.0.0 
 sqlparse==0.5.0    
 virtualenv==20.26.3
-Se tomo la desicion de utilizar Django por errores con Flask.
+Se tomo la decisión de utilizar Django por errores con Flask.
 
 ### Integrantes del Equipo y Representante:
   ● Equipo: 
