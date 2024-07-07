@@ -1,0 +1,23 @@
+{% extends 'labirraesbella/base.html' %}
+{% block titulo %} La Birra es Bella - Nuestros estilos {% endblock %}
+{% load static %}
+
+
+{% block content %}
+<section class="seccion-pagina">
+    <!-- Cervezas de "Nuestros Estilos" -->
+    {% for cerveza in cervezas %}
+    <div class="producto" style="margin-top: 100px; background-image: url('{{ cerveza.imagen.url }}');">
+        <div class="contenido">
+            <h2>{{ cerveza.nombre }}</h2>
+            <p>{{ cerveza.descripcion }}</p>
+            <p>Precio: ${{ cerveza.precio }}</p>
+        </div>
+    </div>
+    {% endfor %}
+   </section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/index.js' %}"></script>
+{% endblock %}
